@@ -1,0 +1,24 @@
+package ru.lg.laughingman;
+
+import java.io.Serializable;
+
+@SuppressWarnings("serial")
+public class Profile implements Serializable{
+	private String name,surname;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSurname() {
+		return surname;
+	}
+
+	public void setSurname(String surname) {
+		this.surname = surname;
+	}
+}
